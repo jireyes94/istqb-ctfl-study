@@ -1,14 +1,14 @@
 # Progreso CTFL
 
-**Inicio:** 2026-09-29. **Estado:** preparado para comenzar; ninguna clase cursada.
+**Inicio:** 2026-09-29. **Estado:** primera clase en curso; ninguna clase terminada.
 
-**Siguiente:** Semana 1, clase 1. **Última actividad:** creación del plan.
+**Siguiente:** responder ejercicio y preguntas de Semana 1, clase 1; corregir y cerrar. **Última actividad:** 2026-09-29, teoría y práctica asignada.
 
 ## Registro de clases
 
 | Clase | Estado | Fecha | Evidencia / resultado | Dudas y próximo paso |
 |---|---|---|---|---|
-| S1 C1 | No iniciada | — | — | — |
+| S1 C1 | En curso | 2026-09-29 | Teoría, explicación, ejemplo y consignas presentados; respuestas pendientes | Corregir ejercicio y cuatro preguntas; completar paso 6. |
 | S1 C2 | No iniciada | — | — | — |
 | S1 C3 | No iniciada | — | — | — |
 | S1 C4 | No iniciada | — | — | — |
@@ -41,8 +41,8 @@ Estados: No iniciado → Estudiando → Comprendido → Practicado → Dominado.
 
 | Objetivo | Estado | Fecha | Evidencia / error |
 |---|---|---|---|
-| FL-1.1.1 | No iniciado | — | — |
-| FL-1.1.2 | No iniciado | — | — |
+| FL-1.1.1 | Estudiando | 2026-09-29 | Teoría presentada; preguntas pendientes. |
+| FL-1.1.2 | Estudiando | 2026-09-29 | Ejemplo presentado; aplicación y preguntas pendientes. |
 | FL-1.2.1 | No iniciado | — | — |
 | FL-1.2.2 | No iniciado | — | — |
 | FL-1.2.3 | No iniciado | — | — |
