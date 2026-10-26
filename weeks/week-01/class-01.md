@@ -1,6 +1,6 @@
 # Semana 1, clase 1: Qué es testing, objetivos y debugging
 
-**Estado:** En curso desde 2026-09-29; pendiente de respuestas y corrección.
+**Estado:** Completada el 2026-10-26 tras corregir el cuestionario, revisar la aplicación QA y superar la comprobación final.
 
 **Objetivos:** FL-1.1.1 (K1), FL-1.1.2 (K2).
 
@@ -33,6 +33,37 @@ Preguntas originales, una opción por pregunta. Respondé antes de mirar la corr
 3. **FL-1.1.2 (K2).** Una revisión de código detecta una condición invertida antes de ejecutar el programa. ¿Qué describe mejor lo ocurrido? A) Testing estático encontró directamente el defecto; corregirlo no exige reproducir un fallo. B) Ocurrió un fallo del programa. C) Toda revisión es debugging. D) Una prueba de regresión encontró necesariamente el defecto.
 4. **FL-1.1.1 (K1).** ¿Cuál de estas metas puede variar con el contexto del proyecto? A) Evitar decisiones de publicación. B) Elegir objetivos de testing según riesgos, nivel y producto evaluado. C) Garantizar calidad absoluta con una cifra fija de casos. D) Limitar testing a código ejecutable.
 
-## 6. Corrección razonada
+## 6. Corrección razonada y evidencia de cierre
 
-Pendiente de respuestas del alumno. Explicar la correcta y cada distractor, revisar el entregable, registrar dudas y actualizar `PROGRESS.md` al cerrar.
+**Fecha de cierre:** 2026-10-26.
+
+### Cuestionario
+
+- Resultado: 3/4 (75%).
+- Pregunta 1 (FL-1.1.1, K1): incorrecta. Eligió A («Demostrar ausencia total de defectos»); la correcta es B («Informar decisiones de los interesados»). Repasar que testing no demuestra ausencia absoluta de defectos: aporta información sobre calidad y riesgos para fundamentar decisiones.
+- Pregunta 2 (FL-1.1.2, K2): correcta, C. Debugging reproduce/investiga el problema, localiza el defecto y lo corrige.
+- Pregunta 3 (FL-1.1.2, K2): correcta, A. La revisión estática puede encontrar un defecto sin ejecutar el programa ni reproducir un fallo.
+- Pregunta 4 (FL-1.1.1, K1): correcta, B. Los objetivos del testing dependen del contexto, los riesgos, el nivel y el producto.
+
+### Aplicación QA
+
+El alumno clasificó correctamente:
+1. Revisión del requisito ambiguo: testing estático.
+2. Ejecución de compra de $60.000 con total incorrecto: testing dinámico.
+3. Reproducción, diagnóstico y corrección de la causa: debugging.
+4. Repetición tras el cambio: testing de confirmación.
+
+Indicó que comunicaría la falta de detalle del requisito y el comportamiento reproducible. Se recomendó enriquecer el reporte con precondiciones, pasos, resultado esperado/observado, impacto y riesgo para la decisión de publicación.
+
+### Comprobación final
+
+Eligió B y justificó correctamente la secuencia: testing dinámico y reporte del defecto; debugging; testing de confirmación de la prueba original y testing de regresión con pruebas relacionadas. La evidencia es suficiente para cerrar la clase, pero no para marcar ambos objetivos como Dominados.
+
+### Estado por objetivo
+
+- **FL-1.1.1 — Estudiando:** comprendió que los objetivos varían por contexto, pero falló la pregunta fundamental sobre informar decisiones frente a demostrar ausencia total de defectos. Requiere refuerzo en la Clase 2.
+- **FL-1.1.2 — Practicado:** distinguió y aplicó las categorías en el ejercicio y la comprobación final. No marcar Dominado hasta demostrar aciertos repetidos en un repaso posterior.
+
+### Dudas y próximo paso
+
+No expresó dudas explícitas. Punto de refuerzo registrado: testing proporciona evidencia y reduce riesgos, pero no garantiza ausencia total de defectos. Próxima clase: Semana 1, Clase 2, respetando el orden del roadmap.
